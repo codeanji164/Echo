@@ -365,7 +365,7 @@ const evidenceData = {
    -------------------------------------------------------------------------- */
 
 const evidenceState = {
-  availablePartKeys: ["part1"],
+  availablePartKeys: ["part1", "part2", "part3"],
   unlockedEvidenceIds: [],
   openedEvidenceIds: [],
   selectedEvidenceId: null
