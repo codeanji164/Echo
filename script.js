@@ -495,7 +495,7 @@ const evidenceData = {
         "Insufficient ridge detail for positive identification.\n\n" +
         "Database Search\n" +
         "One partial match found within the range of 61 suspects according to police database.\n" +
-        "the identity remains encrypted under internal security protocol.\n\n" +
+        "the identity remains encrypted under internal security protocol but investigation narrows it down to a government worker record.\n\n" +
         "Encrypted Reference\n" +
         "SPAG1 SIR1 SPAG2 SPAG3 SIR2 SPAG1\n\n" +
         "(You know our secret code my smoochkin) Fingerprint analysis concluded."
@@ -596,7 +596,7 @@ const evidenceData = {
         "Protective gloves\n" +
         "Safety goggles\n" +
         "Empty fertilizer sacks\n" +
-        "Cosmetic item (Lipstick)\n\n" +
+        "Cosmetic item (Lipstick) of same color as receptionist\n\n" +
         "No identification documents recovered.\n\n" +
         "Search Complete."
     }
