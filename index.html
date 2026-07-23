@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Echo</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="app">
+
+<header id="app-header">
+<h1 id="project-title">PROJECT ECHO</h1>
+</header>
+
+<main id="app-main">
+
+<section id="memory-sync-section" aria-labelledby="memory-sync-heading">
+<h2 id="memory-sync-heading">Memory Synchronization</h2>
+<div id="memory-sync-bar-container">
+<div id="memory-sync-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+</div>
+<span id="memory-sync-percentage"></span>
+</section>
+
+<section id="story-section" aria-labelledby="story-heading">
+<h2 id="story-heading" class="visually-hidden">Story</h2>
+<div id="story-display">
+<!-- Story content will be injected here -->
+</div>
+
+<div id="story-controls">
+<button type="button" id="continue-button" class="app-button">Continue</button>
+<button type="button" id="evidence-button" class="app-button" aria-expanded="false" aria-controls="evidence-panel">Evidence</button>
+</div>
+</section>
+
+<aside id="evidence-panel" class="hidden-panel" aria-labelledby="evidence-panel-heading" hidden>
+<h2 id="evidence-panel-heading">Evidence</h2>
+<div id="evidence-list">
+<!-- Evidence entries will be injected here -->
+</div>
+<button type="button" id="evidence-close-button" class="app-button">Close</button>
+</aside>
+
+<section id="answer-section" aria-labelledby="answer-section-heading">
+<h2 id="answer-section-heading">WHO KILLED ANJI?</h2>
+
+<form id="case-submission-form">
+<div id="primary-suspect-group" class="form-group">
+<label for="primary-suspect-input">Your Answer</label>
+<input type="text" id="primary-suspect-input" name="primary-suspect">
+</div>
+
+<button type="submit" id="close-case-button" class="app-button">Submit Answer</button>
+</form>
+
+<div id="case-result">
+<!-- Result feedback will be injected here -->
+</div>
+</section>
+
+</main>
+
+<footer id="app-footer">
+<p id="footer-text"></p>
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
