@@ -457,9 +457,9 @@ const evidenceData = {
         "Officer Anji driving.\n" +
         "Silence.\n" +
         "Then\u2014\n" +
-        "\u201cYou should've questioned him.\u201d\n" +
+        "\u201cYou should've asked.\u201d\n" +
         "A pause.\n" +
-        "\u201cI'm reporting this.\u201d\n" +
+        "\u201cIt can turn against you.\u201d\n" +
         "Brakes.\n" +
         "The vehicle stops.\n" +
         "Silence.\n" +
@@ -494,11 +494,11 @@ const evidenceData = {
         "Partial fingerprint recovered.\n" +
         "Insufficient ridge detail for positive identification.\n\n" +
         "Database Search\n" +
-        "One partial match found within the National Police Personnel Archive.\n" +
-        "Officer identity remains encrypted under internal security protocol.\n\n" +
+        "One partial match found within the range of 61 suspects according to police database.\n" +
+        "the identity remains encrypted under internal security protocol.\n\n" +
         "Encrypted Reference\n" +
         "SPAG1 SIR1 SPAG2 SPAG3 SIR2 SPAG1\n\n" +
-        "Fingerprint analysis concluded."
+        "(You know our secret code my smoochkin) Fingerprint analysis concluded."
     },
     {
       id: "explosives_laboratory_report",
